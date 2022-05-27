@@ -4,6 +4,7 @@ import './App.css';
 import Characters from './components/Characters';
 import Movies from './components/Movies';
 import {FormattedMessage} from 'react-intl';
+import Spaces from './components/Spaces';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
           <FormattedMessage id='Title'/>
         </h1>
       </header>
-      <Movies/>
+      <Spaces/>
     </div>
   );
 }

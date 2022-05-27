@@ -1,9 +1,6 @@
 {
-    "Title": "Películas", 
-	"Name": "Nombre",
-	"DirectedBy": "Dirijida por",
-	"Country": "País",
-	"Budget": "Presupuesto",
-	"ReleaseDate": "Fecha de publicación",
-	"Views": "No. de visitas"
+	"Title": "Mis Espacios",
+	"Device": "Dispositivo",
+	"Value": "Valor"
+
 }

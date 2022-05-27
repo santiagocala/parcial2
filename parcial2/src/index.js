@@ -9,8 +9,8 @@ import localeEsMessages from './locales/es';
 import localeEnMessages from './locales/en';
 
 function getMessages(){
-  //let messages = localeEnMessages;
-  let messages = localeEsMessages;
+  let messages = localeEnMessages;
+  //let messages = localeEsMessages;
   if(navigator.language === 'es-ES'){
 		messages = localeEsMessages;  
 	}
@@ -19,7 +19,7 @@ function getMessages(){
 
 ReactDOM.render(
   <React.StrictMode>
-    <IntlProvider locale='es-ES' messages={getMessages()}>
+    <IntlProvider locale='en-US' messages={getMessages()}>
       <App />
     </IntlProvider>
   </React.StrictMode>,
